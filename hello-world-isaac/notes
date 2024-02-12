@@ -1,0 +1,18 @@
+I am using vim-go
+
+helpful commands so far
+
+:GoDoc with cursor over function queries manuals
+:GoRun
+:GoTest
+:NERDTree
+
+also you can go up in command history with arrows
+
+this is the process for development:
+Write a test asserting that if you pass in "French" you get "Bonjour, "
+See it fail, check the error message is easy to read (this is what t.helper() is for)
+Do the smallest reasonable change in the code
+
+Make a broken test first, then get the test to pass, then make the code cleaner by removing 
+hardcoded strings and things like that!
