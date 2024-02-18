@@ -1,0 +1,11 @@
++= is the add AND assignment operator 
+
+	repeated += character
+	is the same as 
+	repeated = character + repeated
+
+go has really cool native bench marking tool *testing.B
+	you can set it up in a for loop and it will 
+	decide how many times to iterate then it will 
+	dump out some metrics about the app runtime
+

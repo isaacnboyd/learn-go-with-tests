@@ -1,0 +1,3 @@
+Example functions can be added to _test.go file with // Output: 
+
+Also vim-go automatically adds imports to source files
