@@ -1,0 +1,7 @@
+you can create structs and reference your struct's parameters like its a 
+unique data type, which it is.
+
+type Rectangle struct {
+	Width  float64
+	Height float64
+}
