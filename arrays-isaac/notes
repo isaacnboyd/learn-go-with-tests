@@ -1,0 +1,12 @@
+go has a test coverage tool:
+go test -cover
+
+which measures the percentage of functions that are covered by tests. Super cool!
+
+
+Not all data types can be compared, you can't compare slices for example. 
+use reflect.DeepEqual to compare any data type. I could have used this with Taints!!
+
+
+You can also assign variables to a function for more limited scoping and readability. 
+View checSums() var in the test. 
